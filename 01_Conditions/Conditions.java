@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Conditions {
+    public class Conditions {
     public static void main(String arg[]) {
         Scanner sc = new Scanner(System.in);
 
@@ -273,3 +273,4 @@ public class Conditions {
         sc.close();
     }
 }
+

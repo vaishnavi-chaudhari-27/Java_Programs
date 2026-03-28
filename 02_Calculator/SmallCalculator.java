@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class smallcalculator {
+public class SmallCalculator{
     public static void main(String arg[]) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter First Number: ");
@@ -39,3 +39,5 @@ public class smallcalculator {
         sc.close();
     }
 }
+
+

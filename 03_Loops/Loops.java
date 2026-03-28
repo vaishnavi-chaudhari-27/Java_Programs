@@ -97,7 +97,6 @@ public class Loops {
         // System.out.println(fact);
         // sc.close();
 
-        
         // que 12 palindrome number.//
 
         // int num = sc.nextInt();
