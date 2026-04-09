@@ -124,7 +124,7 @@ public class Patterns {
         // System.out.println();
         // }
 
-        // que11 print the pattern butterfly pattern
+        // que12 print the pattern butterfly pattern
         // int n = 5;
 
         // // upper half
@@ -165,7 +165,7 @@ public class Patterns {
         // }
         // System.out.println();
 
-        // que12 print the solid rhombus //
+        // que13 print the solid rhombus //
         // int n = 5;
         // for (int i = 1; i <= n; i++) {
         // for (int j = 1; j <= n - i; j++) {
@@ -177,7 +177,7 @@ public class Patterns {
         // System.out.println();
         // }
 
-        // que13 print the number pyramid
+        // que14 print the number pyramid
         // int n = 5;
         // for (int i = 1; i <= n; i++) {
         // for (int j = 1; j <= n - i; j++) {
@@ -189,7 +189,7 @@ public class Patterns {
         // System.out.println();
         // }
 
-        // que14 print the palindrom pattern//
+        // que15 print the palindrom pattern//
         // int n = 5;
 
         // for (int i = 1; i <= n; i++) {
@@ -210,7 +210,7 @@ public class Patterns {
         // System.out.println();
         // }
 
-        // que15 print the diamond pattern//
+        // que16 print the diamond pattern//
         int n = 4;
         for (int i = 1; i <= n; i++) {
             // spaces
