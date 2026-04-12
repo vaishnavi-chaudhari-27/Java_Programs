@@ -1,0 +1,80 @@
+public class TwoDArrays {
+    public static void main(String args[]) {
+        // Scanner sc = new Scanner(System.in);
+        // int rows = sc.nextInt();
+        // int cols = sc.nextInt();
+
+        // int[][] numbers = new int[rows][cols];
+
+        // for(int i=0; i<rows; i++) {
+        // for(int j=0; j<cols; j++){
+        // numbers[i][j] = sc.nextInt();
+        // }
+        // }
+
+        // for(int i=0; i<rows; i++){
+        // for(int j=0; j<cols; j++){
+        // System.out.print(numbers[i][j] + " ");
+        // }
+        // System.out.println();
+        // }
+        // sc.close();
+        // }
+        // }
+
+        // Que1 Take a matrix as input from the user
+        // search for a given number x and print the indicated at which it occurs.
+
+        // Scanner sc = new Scanner(System.in);
+        // int rows = sc.nextInt();
+        // int cols = sc.nextInt();
+
+        // int[][] numbers = new int[rows][cols];
+
+        // for (int i = 0; i < rows; i++) {
+        // for (int j = 0; j < cols; j++) {
+        // numbers[i][j] = sc.nextInt();
+        // }
+        // }
+
+        // int x = sc.nextInt();
+        // for (int i = 0; i < rows; i++) {
+        // for (int j = 0; j < cols; j++) {
+        // if (numbers[i][j] == x) {
+        // System.out.println("x found at location (" + i + " , " + j + ")");
+        // }
+        // }
+        // }
+        // }
+        // }
+
+        // Que2 print twoDarray
+        // int[][] arr = {
+        // { 1, 2, 3 },
+        // { 4, 5, 6 },
+        // { 7, 8, 9 }
+        // };
+
+        // for (int i = 0; i < arr.length; i++) {
+        // for (int j = 0; j < arr[i].length; j++) {
+        // System.out.print(arr[i][j] + "");
+        // }
+        // System.out.println();
+        // }
+        // }
+        // }
+
+        // Que3 sum of all element
+        int[][] arr = {
+                { 1, 2, 3 },
+                { 4, 5, 6 }
+        };
+        int sum = 0;
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
+                sum = sum + arr[i][j];
+            }
+        }
+        System.out.println(sum);
+    }
+}
